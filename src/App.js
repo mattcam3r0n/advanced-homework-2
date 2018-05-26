@@ -27,9 +27,9 @@ function App(props) {
       <div className="wrap">
         <div className="header">
           <Header />
-          <div className="clear"> </div>
+          <div className="clear" />
           <SubHeader />
-          <div className="clear"> </div>
+          <div className="clear" />
           <TopNav changeCategory={props.changeCategory} />
         </div>
 
@@ -204,7 +204,7 @@ function App(props) {
             </div> */}
           </div>
         </div>
-        <div className="clear"> </div>
+        <div className="clear" />
         <Footer />
       </div>
     </div>
